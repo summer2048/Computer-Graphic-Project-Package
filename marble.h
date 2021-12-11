@@ -4,7 +4,7 @@
 class marble
 {
 public:
-	static int DEFAULT_LIFE_DURATION = 180;
+	static const int DEFAULT_LIFE_DURATION = 180;
 	bool is_permanent;
 	float position[3];
 	float direction[3];
